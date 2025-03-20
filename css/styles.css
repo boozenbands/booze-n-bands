@@ -110,3 +110,14 @@ header .overlay {
     display: none;
   }
 }
+
+.custom-row {
+    width: 100%; /* Full width */
+    height: 4000px;
+    background-color: #300000; /* Light background */
+    display: flex;
+    align-items: center; /* Vertically center content */
+    justify-content: center;
+	/* Horizontally center content */    
+}
+
