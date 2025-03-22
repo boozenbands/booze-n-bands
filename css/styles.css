@@ -11,7 +11,7 @@ body {
 
 /* Changing the background colour for the header */
 
-header {
+.header {
 	background-color: #000060;
 }
 
@@ -56,6 +56,7 @@ footer a:hover {
 .navbar-boozenbands{
     color: #2723B1;	
 }
+
 
 header {
   position: relative;
@@ -109,15 +110,5 @@ header .overlay {
  header video {
     display: none;
   }
-}
-
-.custom-row {
-    width: 100%; /* Full width */
-    height: 4000px;
-    background-color: #300000; /* Light background */
-    display: flex;
-    align-items: center; /* Vertically center content */
-    justify-content: center;
-	/* Horizontally center content */    
 }
 
