@@ -3,13 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
 
 /* Changing the main font and background colour */
-
-body {
-	font-family: Raleway, sans-serif;
-	background-color: #fffcf8;
+html, body{
+	height: 100%;
+	width: 100%;
 }
-
-/* Changing the background colour for the header */
 
 .header {
 	background-color: #000060;
@@ -18,8 +15,15 @@ body {
 /* Changing the background color for the navigation bar */
 
 .navbar {
-	background-color: #fff0e0;
+	background-color: #0A092C;
+	padding: 1% 0;
+	font-size: 18px;
 }
+
+.navbar-brand {
+	min-height: 55px;	
+}
+
 
 /* Effect on social media buttons */
 
@@ -41,10 +45,6 @@ footer a:hover {
 		.02em .02em .02em white,
 		0 0 .2em white,
 		0 0 .5em white;
-}
-
-.navbar{
-    background-color: #0A092C;
 }
 
 .questrial-regular {
@@ -112,3 +112,21 @@ header .overlay {
   }
 }
 
+.padding {
+	padding: 80px 0;	
+}
+
+.padding img {
+	width: 100%
+}
+
+#fixed {
+	background: url('../images/slide-1.jpg');
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+	display: table;
+	height: 100%;
+	width: 100%;
+}
