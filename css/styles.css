@@ -121,7 +121,7 @@ header .overlay {
 }
 
 #fixed {
-	background: url("../images/slide-1.jpg");
+	background: url("../images/testpic.JPG");
 	background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -129,4 +129,21 @@ header .overlay {
 	display: table;
 	height: 100%;
 	width: 100%;
+}
+
+footer {
+	width: 100%;
+	background-color: #0A092C;
+	padding: 5% 5% 10% 5%;
+	color: #2723B1
+}
+
+.contact-icon {
+	padding: 15px;
+	font-size: 25px;
+	color: #2723B1;	
+}
+
+.contact-icon:hover {
+	color: black;
 }
