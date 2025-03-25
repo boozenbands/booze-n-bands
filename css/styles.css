@@ -184,10 +184,24 @@ footer {
 
 .container2-landingpage{
 	background-color: #300000;
-	text-align: center
+	text-align: left;
+	padding-left: 40px;
+	padding-top: 30px;
+	padding-right: 40px;
+	padding-bottom: 30px;
 }
 
 .padding h4{
 	padding-top: 30px;
 	padding-right: 30px;
+}
+
+.textcolorlightred-boozenbands{
+    color: #BF0000;	
+}
+
+.padding-img-container2{
+	width: 150px;
+	
+	
 }
