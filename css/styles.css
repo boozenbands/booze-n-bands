@@ -2,24 +2,30 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
 
-/* Changing the main font and background colour */
+@import url('https://fonts.cdnfonts.com/css/grindy-brush');
 
-body {
-	font-family: Raleway, sans-serif;
-	background-color: #fffcf8;
+/* Changing the main font and background colour */
+html, body{
+	height: 100%;
+	width: 100%;
 }
 
-/* Changing the background colour for the header */
-
-header {
+.header {
 	background-color: #000060;
 }
 
 /* Changing the background color for the navigation bar */
 
 .navbar {
-	background-color: #fff0e0;
+	background-color: #0A092C;
+	padding: 1% 0;
+	font-size: 18px;
 }
+
+.navbar-brand {
+	min-height: 55px;	
+}
+
 
 /* Effect on social media buttons */
 
@@ -43,10 +49,6 @@ footer a:hover {
 		0 0 .5em white;
 }
 
-.navbar{
-    background-color: #0A092C;
-}
-
 .questrial-regular {
   font-family: "Questrial", sans-serif;
   font-weight: 400;
@@ -54,8 +56,9 @@ footer a:hover {
 }
 
 .navbar-boozenbands{
-    color: #2723B1;	
+    color: #26BF4C;	
 }
+
 
 header {
   position: relative;
@@ -110,3 +113,119 @@ header .overlay {
     display: none;
   }
 }
+
+.padding {
+	padding: 0px 0px;	
+}
+
+.padding img{
+	width: 60%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.padding h2{
+	padding-top: 30px;
+	padding-right: 30px;
+}
+
+.lead{
+	padding-right: 30px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+}
+
+.padding-button-landingpage{
+	padding-bottom: 5px;
+	
+}
+
+
+#fixed {
+	background: url("../images/testpic.JPG");
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
+footer {
+	width: 100%;
+	background-color: #0A092C;
+	padding: 5% 5% 10% 5%;
+	color: #2723B1
+}
+
+.contact-icon {
+	padding: 15px;
+	font-size: 25px;
+	color: #2723B1;	
+}
+
+.contact-icon:hover {
+	color: black;
+}
+
+
+.container1-landingpage{
+	background-color: #0a092c;
+	text-align: center
+}
+
+.textcolorlightblue-boozenbands{
+    color: #2723B1;	
+}
+
+.grindy-brush{
+	font-family: "Grindy Brush", sans-serif;
+}
+
+.container2-landingpage{
+	background-color: #0A092C;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+}
+
+.container4-landingpage{
+	background-color: #0A092C;
+	text-align: left;
+	padding-left: 40px;
+	padding-top: 30px;
+	padding-right: 40px;
+	padding-bottom: 30px;
+}
+
+.padding h4{
+	padding-top: 30px;
+	padding-right: 30px;
+}
+
+.textcolorlightred-boozenbands{
+    color: #BF0000;	
+}
+
+.container5-landingpage{
+	background-color: #0A092C;
+	text-align: left;
+	padding-left: 40px;
+	padding-top: 30px;
+	padding-right: 40px;
+	padding-bottom: 30px;
+}
+	
+
+
+.textcolor-paragraphs{
+    color: #FFFFFF;	
+}
+
+.textcolorlightgreen-boozenbands{
+	color: #26BF4C;
+}
+
+
