@@ -56,7 +56,7 @@ footer a:hover {
 }
 
 .navbar-boozenbands{
-    color: #2723B1;	
+    color: #26BF4C;	
 }
 
 
@@ -204,4 +204,12 @@ footer {
 	width: 100%;
 	padding-top: 30px;
 	
+}
+
+.textcolor-paragraphs{
+    color: #FFFFFF;	
+}
+
+.textcolorlightgreen-boozenbands{
+	color: #26BF4C;
 }
