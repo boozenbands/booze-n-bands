@@ -209,11 +209,16 @@ footer {
     color: #BF0000;	
 }
 
-.padding-img-container4{
-	width: 100%;
+.container5-landingpage{
+	background-color: #0A092C;
+	text-align: left;
+	padding-left: 40px;
 	padding-top: 30px;
-	
+	padding-right: 40px;
+	padding-bottom: 30px;
 }
+	
+
 
 .textcolor-paragraphs{
     color: #FFFFFF;	
@@ -222,3 +227,5 @@ footer {
 .textcolorlightgreen-boozenbands{
 	color: #26BF4C;
 }
+
+
