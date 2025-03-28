@@ -213,12 +213,15 @@ footer {
 	background-color: #0A092C;
 	text-align: left;
 	padding-left: 40px;
-	padding-top: 30px;
+	padding-top: 10px;
 	padding-right: 40px;
 	padding-bottom: 30px;
 }
 	
-
+.img-padding-container5{
+	width: 90px;
+	 
+}
 
 .textcolor-paragraphs{
     color: #FFFFFF;	
