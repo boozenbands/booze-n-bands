@@ -260,8 +260,8 @@ footer {
 
 .container3-artistschedule{
 	background-color: #0A092C;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 40px;
+	padding-bottom: 70px;
 }
 
 .card-body{
@@ -276,8 +276,8 @@ footer {
 
 .container5-artistschedule{
 	background-color: #0A092C;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 40px;
+	padding-bottom: 70px;
 }
 
 .container6-artistschedule{
@@ -288,6 +288,12 @@ footer {
 
 .container7-artistschedule{
 	background-color: #0A092C;
+	padding-top: 40px;
+	padding-bottom: 70px;
+}
+
+.container8-artistschedule{
+	background-color: #203F19;
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
