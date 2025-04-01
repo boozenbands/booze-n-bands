@@ -243,3 +243,23 @@ footer {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.container1-artistschedule{
+	background-color: #0a092c;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+}
+
+.container2-artistschedule{
+	background-color: #203F19;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.container3-artistschedule{
+	background-color: #0A092C;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
