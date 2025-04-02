@@ -71,7 +71,45 @@
     </nav>
     <!-- End of navigation bar -->
 
+<div class="container1-reserve">
+<form action="reservation.php" method="post">
+  <div class="elem-group">
+    <label for="name" class="grindy-brush textcolorlightgreen-boozenbands">Your Name</label>
+    <input type="text" id="name" name="visitor_name" placeholder="John Doe" class="questrial-regular textcolor-reserve" pattern="[A-Z\sa-z]{3,20}" required>
+  </div>
+  <div class="elem-group">
+    <label for="email" class="grindy-brush textcolorlightgreen-boozenbands">Your E-mail</label>
+    <input type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" class="questrial-regular textcolor-reserve" required>
+  </div>
+  <div class="elem-group">
+    <label for="phone" class="grindy-brush textcolorlightgreen-boozenbands">Your Phone</label>
+    <input type="tel" id="phone" name="visitor_phone" placeholder="498-348-3872" class="questrial-regular textcolor-reserve" pattern="(\d{3})-?\s?(\d{3})-?\s?(\d{4})" required>
+  </div>
+  <hr>
+  <div class="elem-group inlined">
+    <label for="adult" class="grindy-brush textcolorlightgreen-boozenbands">Amount of people</label>
+    <input type="number" id="adult" name="total_adults" placeholder="2" class="questrial-regular textcolor-reserve" min="1" required>
+  </div>
+  
+  <div class="elem-group inlined">
+    <label for="checkin-date" class="grindy-brush textcolorlightgreen-boozenbands">Check-in Date</label>
+    <input type="date" id="checkin-date" name="checkin" class="questrial-regular textcolor-reserve" required>
+  </div>
+  <hr>
+  <div class="elem-group">
+    <label for="message" class="grindy-brush textcolorlightgreen-boozenbands">Anything Else We Need To Know Of?</label>
+    <textarea id="message" name="visitor_message" placeholder="Tell us anything else that might be important." required></textarea>
+  </div>
+  <a class="btn btn-outline-light" href="reserve.html" role="button">Reserve</a>
+</form>
+		
 	
+	
+
+	
+	
+</div>
+
 <footer class="shadow-lg mt-auto py-4">
       <div class="container d-flex justify-content-between align-items-center">
         <p class="textcolorlightgreen-boozenbands questrial-regular">
