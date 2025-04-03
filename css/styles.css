@@ -362,7 +362,12 @@ hr {
 .container1-thankyou{
 	background-color: #300000;
 	height: 100%;
-	padding-top: 80px;
-	padding-bottom: 50px;
-	text-align: center;
+	
+}
+
+.thankyou-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
