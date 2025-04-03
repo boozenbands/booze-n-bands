@@ -326,7 +326,7 @@ input, select, textarea {
     font-size: 1.25em;
     width: 100%;
     padding: 10px;
-    background-color: #0D0D0F;  
+    background-color: #000000;  
 }
 
 div.elem-group.inlined input {
@@ -355,5 +355,14 @@ hr {
 
 .container2-reserve{
 	padding-top: 30px;
-	background-color: #0A092C;	
+	background-color: #000000;
+	padding-bottom: 30px;
+}
+
+.container1-thankyou{
+	background-color: #300000;
+	height: 100%;
+	padding-top: 80px;
+	padding-bottom: 50px;
+	text-align: center;
 }
