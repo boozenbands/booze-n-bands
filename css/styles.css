@@ -231,4 +231,127 @@ footer {
 	color: #26BF4C;
 }
 
+.container1pic-artistschedule{
+	position: relative;
+    text-align: center;
+    color: white;
+}
 
+.schedule-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container1-artistschedule{
+	background-color: #0a092c;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+}
+
+.container2-artistschedule{
+	background-color: #203F19;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.container3-artistschedule{
+	background-color: #0A092C;
+	padding-top: 40px;
+	padding-bottom: 70px;
+}
+
+.card-body{
+	background-color: #300000;
+}
+
+.container4-artistschedule{
+	background-color: #203F19;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.container5-artistschedule{
+	background-color: #0A092C;
+	padding-top: 40px;
+	padding-bottom: 70px;
+}
+
+.container6-artistschedule{
+	background-color: #203F19;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.container7-artistschedule{
+	background-color: #0A092C;
+	padding-top: 40px;
+	padding-bottom: 70px;
+}
+
+.container8-artistschedule{
+	background-color: #203F19;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+div.elem-group {
+  margin: 20px 0;
+  background-color: #0D0D0F;
+}
+
+div.elem-group.inlined {
+  width: 49%;
+  display: inline-block;
+  float: left;
+  margin-left: 1%;
+}
+
+label {
+  display: block;
+  font-family: 'Nanum Gothic';
+  padding-bottom: 10px;
+  font-size: 1.25em;
+}
+
+input, select, textarea {
+    border-radius: 2px;
+    border: 2px solid #26bf4c;
+    box-sizing: border-box;
+    font-size: 1.25em;
+    width: 100%;
+    padding: 10px;
+    background-color: #0D0D0F;  
+}
+
+div.elem-group.inlined input {
+  width: 95%;
+  display: inline-block;
+}
+
+textarea {
+  height: 250px;
+}
+
+hr {
+  border: 1px dotted #ccc;
+}
+
+.container1-reserve{
+	background-color: #0A092C;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 30px;
+}
+
+.textcolor-reserve{
+	color: #777777;
+}
+
+.container2-reserve{
+	padding-top: 30px;
+	background-color: #0A092C;	
+}
