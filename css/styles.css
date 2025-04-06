@@ -386,5 +386,20 @@ background-color:  #0A092C ;
 background-color: aqua; 
 	width: 100% ;
 }
-	
-	
+
+.container1pic-menu{
+	position: relative;
+    text-align: center;
+    color: white;
+}
+
+.container1-menu{
+	background-color: #0a092c;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.container2-menu{
+	background-color: #203F19;
+	text-align: center
+}
