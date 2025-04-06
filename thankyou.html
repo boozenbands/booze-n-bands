@@ -15,7 +15,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 	  
     <link rel="stylesheet" href="css/styles.css">
-<title>Reserve</title>
+<title>Thank You</title>
 </head>
 
 <body class="h-100 d-flex flex-column">
@@ -71,43 +71,15 @@
     </nav>
     <!-- End of navigation bar -->
 
-<div class="container2-reserve">
-	<h1 class="grindy-brush textcolorlightgreen-boozenbands text-center">Make Your Reservation</h1>
-</div>
+<div class="container1-thankyou">
+	<div class="row d-flex align-items-center justify-content-center">
+		<div class="row align-items-center">
+			<h1 class="grindy-brush textcolorlightgreen-boozenbands text-center justify-content-center align-items-center thankyou-text">Thank You For Your Reservation!</h1>
+		</div>
+	</div>
 	
-<div class="container1-reserve">
-<form action="reservation.php" method="post">
-  <div class="elem-group">
-    <label for="name" class="grindy-brush textcolorlightgreen-boozenbands">Your Name</label>
-    <input type="text" id="name" name="visitor_name" placeholder="John Doe" class="questrial-regular textcolor-reserve" pattern="[A-Z\sa-z]{3,20}" required>
-  </div>
-  <div class="elem-group">
-    <label for="email" class="grindy-brush textcolorlightgreen-boozenbands">Your E-mail</label>
-    <input type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" class="questrial-regular textcolor-reserve" required>
-  </div>
-  <div class="elem-group">
-    <label for="phone" class="grindy-brush textcolorlightgreen-boozenbands">Your Phone</label>
-    <input type="tel" id="phone" name="visitor_phone" placeholder="06 12345678 " class="questrial-regular textcolor-reserve" pattern="(\d{3})-?\s?(\d{3})-?\s?(\d{4})" required>
-  </div>
-  <hr>
-  <div class="elem-group inlined">
-    <label for="adult" class="grindy-brush textcolorlightgreen-boozenbands">Amount of people</label>
-    <input type="number" id="adult" name="total_adults" placeholder="2" class="questrial-regular textcolor-reserve" min="1" required>
-  </div>
-  
-  <div class="elem-group inlined">
-    <label for="checkin-date" class="grindy-brush textcolorlightgreen-boozenbands">Date</label>
-    <input type="date" id="checkin-date" name="checkin" class="questrial-regular textcolor-reserve" required>
-  </div>
-  <hr>
-  <div class="elem-group">
-    <label for="message" class="grindy-brush textcolorlightgreen-boozenbands">Anything Else We Need To Know Of?</label>
-    <textarea id="message" name="visitor_message" placeholder="Tell us anything else that might be important." class="questrial-regular textcolor-reserve" required></textarea>
-  </div>
-  <a class="btn btn-outline-light" href="thankyou.html" role="button">Reserve</a>
-</form>		
+	
 </div>
-
 
 
 <footer class="shadow-lg mt-auto py-4">
@@ -130,8 +102,7 @@
           </li>
         </ul>
       </div>
-    </footer>
-
+    </footer>	
+	
 </body>
-
 </html>

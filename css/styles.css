@@ -296,6 +296,8 @@ footer {
 	background-color: #203F19;
 	padding-top: 30px;
 	padding-bottom: 30px;
+	padding-left: 80px;
+	padding-right: 80px;
 }
 
 div.elem-group {
@@ -324,7 +326,7 @@ input, select, textarea {
     font-size: 1.25em;
     width: 100%;
     padding: 10px;
-    background-color: #0D0D0F;  
+    background-color: #000000;  
 }
 
 div.elem-group.inlined input {
@@ -353,5 +355,26 @@ hr {
 
 .container2-reserve{
 	padding-top: 30px;
-	background-color: #0A092C;	
+	background-color: #000000;
+	padding-bottom: 30px;
 }
+
+.container1-thankyou{
+	background-color: #300000;
+	height: 100%;
+	
+}
+
+.thankyou-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container1-aboutus {
+	background-color: #0A092C
+	
+	
+	
+}	
