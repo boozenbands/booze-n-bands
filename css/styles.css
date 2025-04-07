@@ -221,7 +221,7 @@ footer {
 	
 .img-padding-container5{
 	width: 90px;
-	 
+	align-items: center; 
 }
 
 .textcolor-paragraphs{
@@ -374,20 +374,29 @@ hr {
 }
 
 .container1-aboutus {
-  background-color: #0A092C;
+  background-color: #300000;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .container2-aboutus { 
-background-color:  #0A092C ;
+	background-color: #0A092C;
 	align-content: center;
+	padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.container3-aboutus{
+	background-color: #300000
+}
+
+.container1pic-aboutus{
+	position: relative;
+    text-align: center;
+    color: white;
 }
 	
-
-.container3-aboutus { 
-background-color: aqua; 
-	width: 100% ;
-}
-
 .container1pic-menu{
 	position: relative;
     text-align: center;
@@ -408,8 +417,7 @@ background-color: aqua;
 
 
 .mt-4 {
-	font-size: 26px;
-	
-	
+	font-size: 26px;		
 }
+
 
