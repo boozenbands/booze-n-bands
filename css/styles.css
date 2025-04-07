@@ -363,7 +363,7 @@ hr {
 }
 
 .container1-aboutus {
-  background-color: #300000;
+  background-color: black;
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -373,11 +373,11 @@ hr {
 	background-color: #0A092C;
 	align-content: center;
 	padding-top: 30px;
-  padding-bottom: 30px;
+    padding-bottom: 30px;
 }
 
 .container3-aboutus{
-	background-color: #300000
+	background-color: black;
 }
 
 .container4-aboutus{
