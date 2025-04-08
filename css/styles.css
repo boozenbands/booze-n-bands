@@ -66,12 +66,14 @@ header {
   height: 75vh;
   min-height: 25rem;
   width: 100%;
+  padding-top: 320px;
+  padding-bottom: 320px;
   overflow: hidden;
 }
 
 header video {
   position: absolute;
-  top: 50%;
+  top: 70%;
   left: 50%;
   min-width: 100%;
   min-height: 100%;
@@ -87,7 +89,9 @@ header video {
 header .container {
   position: relative;
   z-index: 2;
+  max-width: 100%;
 }
+
 
 header .overlay {
   position: absolute;
@@ -96,7 +100,7 @@ header .overlay {
   height: 100%;
   width: 100%;
   background-color: black;
-  opacity: 0.5;
+  opacity: 0;
   z-index: 1;
 }
 
@@ -140,18 +144,6 @@ header .overlay {
 	
 }
 
-
-#fixed {
-	background: url("../images/testpic.JPG");
-	background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-	display: table;
-	height: 100%;
-	width: 100%;
-}
-
 footer {
 	width: 100%;
 	background-color: #0A092C;
@@ -168,7 +160,6 @@ footer {
 .contact-icon:hover {
 	color: black;
 }
-
 
 .container1-landingpage{
 	background-color: #0a092c;
@@ -220,8 +211,8 @@ footer {
 }
 	
 .img-padding-container5{
-	width: 90px;
-	 
+	width: 100px;
+	align-items: center; 
 }
 
 .textcolor-paragraphs{
@@ -374,20 +365,53 @@ hr {
 }
 
 .container1-aboutus {
-  background-color: #0A092C;
+  background-color: black;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .container2-aboutus { 
-background-color:  #0A092C ;
+	background-color: #0A092C;
 	align-content: center;
+	padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.container3-aboutus{
+	background-color: black;
+}
+
+.container4-aboutus{
+	background-color: #0A092C;
+	text-align: left;
+	padding-left: 40px;
+	padding-top: 30px;
+	padding-right: 40px;
+	padding-bottom: 30px;
+}
+
+.container5-aboutus{
+	background-color: #0A092C;
+	text-align: left;
+	padding-left: 40px;
+	padding-top: 10px;
+	padding-right: 40px;
+	padding-bottom: 30px;
+}
+
+.container1pic-aboutus{
+	position: relative;
+    text-align: center;
+    color: white;
+}
+
+.container2pic-aboutus{
+	position: relative;
+    text-align: center;
+    color: white;
 }
 	
-
-.container3-aboutus { 
-background-color: aqua; 
-	width: 100% ;
-}
-
 .container1pic-menu{
 	position: relative;
     text-align: center;
@@ -403,4 +427,22 @@ background-color: aqua;
 .container2-menu{
 	background-color: #203F19;
 	text-align: center
+}
+
+
+
+.mt-4 {
+	font-size: 26px;		
+}
+
+
+.container {
+  max-width: 100% !important;
+}
+
+
+.container1pic-corporate{
+	position: relative;
+    text-align: center;
+    color: white;
 }
