@@ -437,7 +437,8 @@ hr {
 
 
 .container {
-  max-width: 1506px !important;
+  max-width: 100% !important;
+ 
 }
 
 
@@ -446,3 +447,8 @@ hr {
     text-align: center;
     color: white;
 }
+
+.justify-sm-between{
+	justify-content: space-between !important;
+}
+
